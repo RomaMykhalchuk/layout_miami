@@ -4,18 +4,21 @@
   margin: 0 auto; }
 
 .nav {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 85px;
+  padding-bottom: 48px; }
   .nav__list {
-    position: absolute;
-    bottom: 48px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 52px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .nav__link {
     color: #fff;
     -webkit-transition: 0.3s all;
-    transition: 0.3s all; }
+    transition: 0.3s all;
+    padding: 5px; }
     .nav__link:hover {
       color: #9fadc2; }
   .nav__item {

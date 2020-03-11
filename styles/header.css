@@ -4,20 +4,21 @@
   margin: 0 auto; }
 
 .header {
-  height: 700px;
   background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
   position: relative; }
   .header__top {
-    position: absolute;
-    top: 24px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    padding-top: 24px; }
   .header__phone {
     color: #fff;
     letter-spacing: 2px; }
@@ -34,12 +35,11 @@
       color: #9fadc2;
       border-bottom: 1px solid #9fadc2; }
   .header__promo {
-    position: absolute;
+    margin-top: 296px;
     bottom: 165px;
     width: 328px; }
     .header__promo::before {
       content: "";
-      position: absolute;
       left: 3px;
       display: block;
       width: 35px;
