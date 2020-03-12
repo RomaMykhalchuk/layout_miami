@@ -1,0 +1,14 @@
+.info {
+  color: #3e3e3e; }
+  .info__heading {
+    font-weight: bold;
+    font-size: 36px; }
+  .info__link {
+    color: #0075ff; }
+  .info__capture {
+    font-weight: bold;
+    font-size: 24px;
+    color: #0075ff;
+    margin: 48px 0 16px; }
+
+/*# sourceMappingURL=info.css.map */

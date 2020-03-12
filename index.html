@@ -14,43 +14,72 @@
   <header class="header">
     <div class="container">
       <div class="header__top">
-        <div class="header__phone">+1 234 555-55-55</div>
+        <a class="header__phone" href="tel:+1 234 555-55-55">+1 234 555-55-55</a>
+        <img src="images/phone.svg" alt="phone-icon" class="header__phone-icon">
         <div class="header__logo">
-          <img src="images/logo.png" alt="logo" class="header__image" width="115" height="76">
+          <img src="images/small-logo.svg" alt="miami-logo">
         </div>
         <div class="header__action">
           <a href="#" class="header__link">Call To Order</a>
         </div>
+        <nav class="header__nav nav">
+          <input type="checkbox" name="burger" id="burger" class="nav__toggler">
+          <label for="burger" class="nav__toggler-label"></label>
+          <ul class="nav__list">
+            <li class="nav__item nav__item--active">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Gallery</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Consultation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Testimonials</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contacts</a>
+            </li>
+            <li class="nav__item nav__item--to-order">
+              <a class="nav__link nav__link--action-order" href="tel:+1 234 555-55-55">+1 234 555-55-55</a>
+            </li>
+            <li class="nav__item nav__item--to-order">
+              <a href="#" class="nav__link nav__link--action-order">Call To Order</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="header__promo">
         <h1 class="header__title">
           Miami Condo Kings
         </h1>
       </div>
-      <nav class="header__nav nav">
-        <ul class="nav__list">
-          <li class="nav__item nav__item--active">
-            <a href="#" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">About Us</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Gallery</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Consultation</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Testimonials</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
     </div>
   </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="info">
+          <h2 class="info__heading"><strong>Miami best Real estate</strong> <a href="#" class="info__link">here</a></h2>
+          <h3 class="info__capture">Over 50 years experience in love</h3>
+          <p class="info__description">Mazel and VA Tsukkerman in his "Analysis of musical works."
+            Pointillism, which originated in the music of the early twentieth
+            century, microforms, found a distant historical.<br><br>The market leader in
+            real estate since 2003. Awards Real Estate Company, 2010, 2011, 2013.
+            More than 200 satisfied customers premium segment. We focus only on new
+            buildings and high-level doskanalno know this area better than other
+            specialists. Working directly with developers - so have more useful information
+            about the profitable deals.<br><br>
+            <strong>We will never be late! Guaranteed secure transaction - 100%</strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
   <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 
