@@ -1,0 +1,26 @@
+.footer {
+  margin-top: 64px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+  height: 206px;
+  background-image: url("../images/footer.jpg");
+  background-size: cover;
+  background-position: center; }
+  .footer__logo {
+    width: 73px;
+    height: 48px;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  @media screen and (min-width: 769px) {
+    .footer__img_logo {
+      width: 115px;
+      height: 76px; }
+    .footer__logo {
+      bottom: 40px; } }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,23 @@
+.button {
+  display: block;
+  width: 100%;
+  margin-top: 32px;
+  padding: 21px 0;
+  border: 1px solid #0075ff;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #0075ff;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  outline: none; }
+  .button:hover {
+    background-color: #0075ff;
+    color: #fff; }
+
+@media screen and (min-width: 769px) {
+  .gallery__button {
+    width: 30%;
+    margin: 32px auto 0; } }
+
+/*# sourceMappingURL=button.css.map */

@@ -1,14 +1,29 @@
 .info {
   color: #3e3e3e; }
+  @media screen and (min-width: 769px) {
+    .info {
+      display: grid;
+      grid-template-areas: "heading capture" "heading description";
+      grid-gap: 0 192px;
+      -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline; } }
   .info__heading {
+    grid-area: heading;
     font-weight: bold;
-    font-size: 36px; }
+    font-size: 36px;
+    letter-spacing: -1.5px;
+    color: #000; }
   .info__link {
     color: #0075ff; }
   .info__capture {
+    grid-area: capture;
     font-weight: bold;
     font-size: 24px;
     color: #0075ff;
     margin: 48px 0 16px; }
+  .info__description {
+    grid-area: description;
+    line-height: 27px; }
 
 /*# sourceMappingURL=info.css.map */

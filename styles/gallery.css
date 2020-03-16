@@ -1,0 +1,35 @@
+.gallery__photos {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.gallery__link {
+  color: #0075ff; }
+
+.gallery__caption {
+  margin-top: 16px;
+  font-weight: bold; }
+
+.gallery__heading {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  letter-spacing: -1.5px;
+  font-size: 36px;
+  font-weight: bold; }
+  .gallery__heading::after {
+    content: "";
+    display: block;
+    background-image: url("../images/crown.svg");
+    width: 25px;
+    height: 13px;
+    margin: 0 auto;
+    background-repeat: no-repeat; }
+
+/*# sourceMappingURL=gallery.css.map */

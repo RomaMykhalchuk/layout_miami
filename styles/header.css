@@ -1,7 +1,22 @@
 .container {
-  max-width: calc(100vw - 40px);
   margin: 0 auto;
   height: 100%; }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    max-width: 280px; } }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-width: 441px; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 729px; } }
+
+@media only screen and (min-width: 1025px) {
+  .container {
+    max-width: 980px; } }
 
 .header {
   background-image: url("../images/header.jpg");
@@ -9,6 +24,14 @@
   background-position: center;
   position: relative;
   height: 568px; }
+  @media screen and (min-width: 769px) {
+    .header {
+      height: 700px; } }
+  .header__link {
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 2px; }
   .header__top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -22,13 +45,32 @@
     padding-top: 24px; }
   .header__action {
     display: none; }
+    @media screen and (min-width: 769px) {
+      .header__action {
+        display: block;
+        border-bottom: 1px solid #fff;
+        text-transform: uppercase; } }
   .header__logo {
     position: relative;
     z-index: 10; }
+    .header__logo-img {
+      width: 73px;
+      height: 48px; }
+      @media screen and (min-width: 769px) {
+        .header__logo-img {
+          width: 115px;
+          height: 76px; } }
   .header__phone {
     display: none;
     color: #fff;
     letter-spacing: 2px; }
+    .header__phone-link {
+      display: block; }
+    @media screen and (min-width: 769px) {
+      .header__phone {
+        display: block; }
+      .header__phone-link {
+        display: none; } }
   .header__title {
     font-size: 46px;
     font-weight: bold;
@@ -44,5 +86,12 @@
       width: 35px;
       height: 2px;
       background-color: #fff; }
+    @media screen and (min-width: 769px) {
+      .header__promo {
+        margin-top: 296px; } }
+  @media screen and (min-width: 769px) {
+    .header__nav {
+      position: absolute;
+      bottom: 48px; } }
 
 /*# sourceMappingURL=header.css.map */
