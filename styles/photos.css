@@ -7,12 +7,13 @@
      object-position: center;
   border-radius: 8px; }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 370px) {
   .photos__img {
-    width: calc(50% - 20px / 2);
-    height: 256px; } }
+    width: calc(50% - 20px / 2); } }
 
 @media screen and (min-width: 769px) {
+  .photos__img {
+    height: 256px; }
   .photos--wide_left .photos__img:first-child {
     width: calc(67% - 20px / 2); }
   .photos--wide_left .photos__img:last-child {

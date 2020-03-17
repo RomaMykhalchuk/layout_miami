@@ -26,7 +26,8 @@
   outline: none;
   border: 1px solid #fff;
   background-color: #f7f8ff;
-  text-indent: 17px; }
+  text-indent: 17px;
+  font-size: 15px; }
   .contact__field:first-child ~ .contact__field {
     margin-top: 16px; }
   .contact__field::-webkit-input-placeholder {
@@ -53,7 +54,8 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     height: 144px;
-    padding-top: 17px; }
+    padding-top: 17px;
+    resize: none; }
 
 .contact__capture {
   font-size: 14px;

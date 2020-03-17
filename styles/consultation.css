@@ -44,7 +44,8 @@
   outline: none;
   border: 1px solid #fff;
   background-color: #f7f8ff;
-  text-indent: 17px; }
+  text-indent: 17px;
+  font-size: 15px; }
   .consultation__field:first-child ~ .consultation__field {
     margin-top: 16px; }
   .consultation__field::-webkit-input-placeholder {
